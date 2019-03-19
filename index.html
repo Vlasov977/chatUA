@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat-UA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/right-nav-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  alesc">
+            <a href="#"><img  class="logotype" src="img/logotp.png" alt=""></a>
+            <h1>CHATUA</h1>
+            <p>Украинский онлайн</p>
+            <p>видеочат для знакомств</p>
+            <hr>
+
+            <div class="menu">
+                <input type="checkbox" id="nav-toggle" hidden>
+                <nav class="naviw">
+
+                    <label for="nav-toggle" class="nav-toggle" onclick></label>
+                    <ul>
+                        <li><a href="chatruletka.html" class="menu-text"><img src="img\shuffle (1).png" class="menu-img">Чатрулетка</a>
+                        <li><a href="?inc=search" class="menu-text"><img src="img\top (1).png" class="menu-img">Поиск</a>
+                        <li><a href="?inc=top100" class="menu-text"><img src="img\shuffle (1).png" class="menu-img">Топ-100</a>
+                        <li><a href="?inc=gallery" class="menu-text"><img src="img\gallery.png" class="menu-img">Галерея</a>
+                        <li><a href="?inc=forum" class="menu-text"><img src="img\conversation.png" class="menu-img">Форум</a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="item-1">
+
+                <div class="child-item">
+                    <img class="items-1" src="img/1-item.png" alt="">
+                </div>
+
+
+            </div>
+            <div class="item-2">
+                <div class="child-item2">
+                    <img class="items-2" src="img/2-item.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+
+                        <div class="tab" role="tabpanel">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active li--class"><a   class="autorez" href="#Section1" aria-controls="home" role="tab" data-toggle="tab" onclick="clicked()" id="avtor">Авторизация</a></li>
+                                <li role="presentation" class="li--class"><a class="autorez autorez1" href="#Section2" aria-controls="profile" role="tab" data-toggle="tab" name="done" onclick="clicked1()" id="avtor1">Регистрация</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content tabs">
+                                <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <div class="child">
+                                                <img  class="male" src="img/male.png" alt="">
+                                            </div> <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Логин">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="child">
+                                                <img  class="pss" src="img/pss.png" alt="">
+
+                                            </div>
+                                            <div class="child2">
+                                                <img  class="eye" src="img/eye.png" alt="">
+                                            </div>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+
+                                        </div>
+                                        <div class="form-group lessmess">
+                                            <div class="main-checkbox">
+                                                <input value="None" id="checkbox1" name="check" type="checkbox">
+                                                <label for="checkbox1"></label>
+                                            </div>
+                                            <span class="text">Чужой компьютер</span>
+
+                                            <div class="form-group forgot-pass">
+                                                <button href="?inc=mail" type="submit"  class="btn btn-default">Забыл пароль?</button>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group flex-btn">
+                                            <button type="submit" class="btn btn-default btn-fly enter"><span class="btn-color">Войти</span></button>
+                                            <div class="vert-line"></div>
+                                            <button type="submit" class="btn btn-default btn-fly gost"><span class="btn-color">Гостевой Вход</span></button>
+
+                                        </div>
+                                        <div class="social-items">
+                                            <h5 class="or">Или через соц. сети:</h5>
+
+                                            <a href="#"><img class="insta-top" src="img/instagram.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/vk.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/odnok.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/mailur.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/gg.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/twitter.png" alt=""></a>
+                                            <a href="#"><img class="insta-top" src="img/else-point44.png" alt=""></a>
+                                        </div>
+
+
+
+                                    </form>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <div class="child">
+                                                <img  class="male" src="img/male.png" alt="">
+                                            </div>
+                                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Логин">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="child">
+                                                <img  class="pss" src="img/pss.png" alt="">
+                                            </div>
+                                            <div class="child2">
+                                                <img  class="eye" src="img/eye.png" alt="">
+                                            </div>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="child">
+                                                <img  class="pss2" src="img/pss.png" alt="">
+                                            </div>
+
+                                            <div class="child2">
+                                                <img  class="eye2" src="img/eye.png" alt="">
+                                            </div>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Повторите пароль">
+
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="child">
+                                                <img  class="email" src="img/email.png" alt="">
+                                            </div>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="radio">
+                                            <label class="label-radio" for="">Мужской</label>
+                                            <input  type="radio">
+                                            <label class="label-radio" for="">Женский</label>
+                                        </div>
+                                        <div>
+                                            <input class="type-number" type="number">
+                                            <input class="code" type="number" placeholder="Код безопасности">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <button type="submit" class="btn btn-default reg">Зарегистрироваться</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- /.col-md-offset-3 col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 girl">
+
+
+
+
+            <div class="menu1">
+                <ul class="menu1-li">
+                        <li><a href="chatruletka.html" class="menu1-item">Чатрулетка</a>
+                        <li><a href="?inc=search" class="menu1-item">Поиск</a>
+                        <li><a href="?inc=top100" class="menu1-item">Топ-100</a>
+                        <li><a href="?inc=gallery" class="menu1-item">Галерея</a>
+                        <li><a href="?inc=forum" class="menu1-item">Форум</a>
+                </ul>
+            </div>
+
+
+
+            <div class="menu-girl">
+
+            <div class="gplay">
+                <div class="child-gpl">
+                    <img  src="img/gpl.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+<section>
+    <div class="container fixq">
+        <div>
+            <h2>Letraset, французская компания литерность,<br>
+                популяризировал прохождение Lorem Ipsum в 1960-е годы <br>
+                с их сухим передаточных листов.</h2>
+        </div>
+        <div class="row hun">
+            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
+                <img class="girl-picture" src="img/girl-2.png" alt="">
+            </div>
+
+            <div class="col-xl-7 col-lg-6">
+            <p class="many-t">
+                Пять столетий спустя Lorem Ipsum испытал всплеск популярности с
+                выпуском сухого переноса листов Letraset в. Эти листы надписи можно
+                потереть на любом месте и были быстро приняты художники-графики,
+                принтеры, архитекторов и рекламодателей для их профессионального вида
+                и простоты использования. Letraset включены Lorem Ipsum проходы в
+                арсеналом шрифтов, стилей и размеров, затвердевание место Латинского-
+                эск фразу целиком в печатной и графической индустрии. Те, с вниманием к
+                деталям будет даже поймали дань классического текста в эпизоде Mad
+                Men (S6E1 вокруг 1:18:55 для тех, кто не сделал).
+            </p>
+
+                <div class="btn-mob">
+                    <button class="podrob">Подробней</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+<div class="container-fluid">
+    <div class="row row-pad">
+        <div class="col-lg-5 verty">
+
+            <div>
+                <img class="log-vect" src="img/logotp.png" alt="">
+            </div>
+
+            <div class="chatua">
+                <h3>CHATUA</h3>
+                <h4>Украинский онлайн видеочат для знакомств</h4>
+            </div>
+        </div>
+
+        <div class="col-lg-7 sub-footer">
+            <h4 class="sub">Подписывайтесь на наши группы в соц сетях:</h4>
+            <div class="junter">
+                <a href="#"><img class="insta-bop" src="img/instagram.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/fb.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/vk.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/odnok.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/mailur.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/gg.png" alt=""></a>
+                <a href="#"><img class="insta-bop" src="img/twitter.png" alt=""></a>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <hr class="hr-bot">
+        <div class="col-xl-12 swrt">
+
+            <p class="a-bottom col-xl-5">Copyright CHATUA 2019. All rights reseved.</p>
+            <div class="footer-ashki">
+                <a  class="a-bottom" href="?inc=who">Кто был</a>
+                <a  class="a-bottom" href="?inc=gb">Гостевая</a>
+                <a  class="a-bottom" href="sitemap.xml">Карта сайта</a>
+                <a  class="a-bottom" href="?inc=prav">Правила</a>
+            </div>
+            <div class="footer-ashki">
+                <a class="a-bottom" href="?inc=help">Помощь</a>
+                <a  class="a-bottom" href="golos.html">Голосование</a>
+                <a  class="a-bottom" href="?inc=feedback">Обратная связь</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+</footer>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+
+function clicked(){
+    var elem = document.getElementById('avtor');
+    elem.style.backgroundColor = 'white';
+    var elem = document.getElementById('avtor1');
+    elem.style.backgroundColor = '#745FA0';
+}
+
+function clicked1(){
+    var elem = document.getElementById('avtor');
+    elem.style.backgroundColor = '#745FA0';
+    var elem = document.getElementById('avtor1');
+    elem.style.backgroundColor = 'white';
+
+}
+</script>
+
+</body>
+
+</html>
